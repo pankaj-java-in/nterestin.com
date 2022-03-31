@@ -1,4 +1,4 @@
-package org.groupcall;
+package org.kurento.tutorial.groupcall;
 
 import org.kurento.client.KurentoClient;
 import org.springframework.boot.SpringApplication;

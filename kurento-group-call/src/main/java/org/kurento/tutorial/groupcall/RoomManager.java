@@ -15,7 +15,7 @@
  *
  */
 
-package org.groupcall;
+package org.kurento.tutorial.groupcall;
 
 import java.util.Collection;
 import java.util.LinkedList;

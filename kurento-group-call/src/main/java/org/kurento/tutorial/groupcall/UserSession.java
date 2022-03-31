@@ -15,7 +15,7 @@
  *
  */
 
-package org.groupcall;
+package org.kurento.tutorial.groupcall;
 
 import java.io.Closeable;
 import java.io.IOException;
