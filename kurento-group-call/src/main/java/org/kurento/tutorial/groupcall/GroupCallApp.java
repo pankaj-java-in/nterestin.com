@@ -29,7 +29,7 @@ public class GroupCallApp implements WebSocketConfigurer {
 
   @Bean
   public KurentoClient kurentoClient() {
-    return KurentoClient.create();
+    return KurentoClient.create("ws://3.13.132.148:8888/kurento");
   }
 
   public static void main(String[] args) throws Exception {
