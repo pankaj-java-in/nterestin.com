@@ -41,46 +41,12 @@
 	</dependencyManagement>
 
 	<modules>
-		<module>kurento-chroma</module>
-		<module>kurento-crowddetector</module>
 		<module>kurento-group-call</module>
-		<module>kurento-hello-world</module>
-		<module>kurento-hello-world-recording</module>
-		<module>kurento-magic-mirror</module>
-		<module>kurento-metadata-example</module>
-		<module>kurento-one2many-call</module>
-		<module>kurento-one2one-call</module>
-		<module>kurento-one2one-call-advanced</module>
-		<module>kurento-one2one-call-recording</module>
-		<module>kurento-platedetector</module>
-		<module>kurento-player</module>
-		<module>kurento-pointerdetector</module>
-		<module>kurento-rtp-receiver</module>
-		<module>kurento-send-data-channel</module>
-		<module>kurento-show-data-channel</module>
 	</modules>
 
 	<build>
 		<pluginManagement>
 			<plugins>
-				<!--
-				Goal: spring-boot:run
-				Allows running the project from Maven.
-				Use this command: `mvn clean spring-boot:run`.
-
-				Goal: spring-boot:repackage
-				Runs automatically during the Maven's 'package' goal.
-				The parameter 'executable=true' generates an executable JAR during
-				the 'package' phase. The original package is still generated as
-				"<Name>.jar", and the executable one is generated as "<Name>-exec.jar".
-				It also supports the service actions start/stop/status, so it
-				can be linked into "/etc/init.d/" to be used as system service.
-
-				Ref:
-				- https://stackoverflow.com/questions/21503883/spring-boot-application-as-a-service/30497095#30497095
-				- https://docs.spring.io/spring-boot/docs/current/reference/html/deployment.html#deployment-service
-				- https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/html/
-				-->
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
